@@ -1,6 +1,6 @@
 # Kahrvinger (B): your prompts
 
-In class we will analyze the case with Crystal Ball. You can reproduce the same analysis with the AI assistant, using the prompts below. To get started, attach the files `MC_Assistant.md` and `KahrvingerB_case_brief.md` to the chat.
+To get started, attach the files `MC_Assistant.md` and `KahrvingerB_case_brief.md` to the chat.
 
 Then, copy each prompt (**the text inside the gray boxes**) and paste it to the assistant.
 
@@ -61,4 +61,4 @@ What is the probability that the NPV is between 0 and 500?
 - `Plot the cumulative distribution.`
 - `Delete the mean from the graph.`
 - `Run 5,000 scenarios (or other number).`
-- `Fix the random seed.` (so that you get the same results each time. This is a technical issue: disregard it unless you have a strong interest in it). 
+- `Fix the random seed.` (to get the same results each time. This is a technical issue: disregard it unless you have a strong interest in it). 
