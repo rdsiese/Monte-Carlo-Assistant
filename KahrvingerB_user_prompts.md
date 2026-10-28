@@ -1,14 +1,8 @@
 # Kahrvinger (B): your prompts
 
-In class we will analyze the case with Crystal Ball. You can reproduce the same analysis with this AI assistant, using the prompts below. 
+In class we will analyze the case with Crystal Ball. You can reproduce the same analysis with this AI assistant, using the prompts below. To get started, attach the files `MC_Assistant.md` and `KahrvingerB_case_brief.md` to the chat.
 
-Copy each prompt (the text inside the gray boxes) and paste it to the assistant.
-
-## Before you start
-
-1. Open a new chat in any AI assistant (that can run code).
-2. Attach the two files provided: `MC_Assistant.md` and `KahrvingerB_case_brief.md`.
-3. Send this message:
+Then, copy each prompt (**the text inside the gray boxes**) and paste it to the assistant.
 
 ```
 Follow the instructions in the attached file MC_Assistant.md for this whole conversation. The other attached file, KahrvingerB_case_brief.md, describes the case.
