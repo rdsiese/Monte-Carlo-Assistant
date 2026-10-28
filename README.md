@@ -52,6 +52,5 @@ Use a new chat for each case.
 ## Notes
 
 - Results vary slightly from run to run because the simulation uses random numbers.
-- Instructor answer keys are not included in this repository.
-- Crystal Ball is a trademark of Oracle. This project is not affiliated with Oracle.
+- In class we use Crystal Ball, a trademark of Oracle. This project is not affiliated with Oracle.
 
