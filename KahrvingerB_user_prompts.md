@@ -1,6 +1,8 @@
 # Kahrvinger (B): your prompts
 
-In class we will analyze the case with Crystal Ball. You can reproduce the same analysis with an AI assistant, using the prompts below. Copy each prompt (the text inside the gray boxes) and send it to the assistant.
+In class we will analyze the case with Crystal Ball. You can reproduce the same analysis with this AI assistant, using the prompts below. 
+
+Copy each prompt (the text inside the gray boxes) and paste it to the assistant.
 
 ## Before you start
 
