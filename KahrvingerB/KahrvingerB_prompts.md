@@ -1,4 +1,4 @@
-# Kahrvinger (B): your prompts
+# Kahrvinger B prompts
 
 To get started, attach the files `MC_Assistant.md` and `KahrvingerB_case_brief.md` to the chat.
 
