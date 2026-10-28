@@ -4,7 +4,7 @@ Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE 
 
 The assistant will help you analyze the following cases: Kahrvinger B, Chemical Fusion C, SkyWest Airlines, Genzyme-Geltex and Netscape. 
 
-You define the uncertainties (Assumptions), it runs the simulation and shows the charts and statistics of the results (Forecasts), probabilities, and tornado charts.
+You define the uncertainties, it runs the simulation and shows the charts and statistics of the results.
 
 ## How it works
 
@@ -16,7 +16,7 @@ For each case you need:
 | `[name]_case_brief.md` | Attach to the chat (one for each case) | Description of the case and the model. |
 | | | |
 
-Genzyme and Netscape also need their Excel file (`Genzyme Template.xlsx`, `Netscape.xlsx`). Attach it too. The assistant reads it and does not modify it.
+Genzyme and Netscape also need their Excel file (`Genzyme Template.xlsx`, `Netscape.xlsx`) to be attached to the chat. 
 
 NOTE: The files `[name]_case_brief.md` contain the streamlined facts from each case that are needed to run the simulation, so you don’t need to attach the whole case. This allows you to follow IESE guidelines regarding case copyright (and it’s faster). 
 
