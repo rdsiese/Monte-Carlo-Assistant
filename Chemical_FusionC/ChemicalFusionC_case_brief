@@ -1,0 +1,47 @@
+# Case brief: Chemical Fusion (C)
+
+*Short description of the situation, the problem and the model. Use together with `MC_Assistant.md`.*
+
+## Situation
+
+Química del Vallès (QV) produces zinc pyriclamate and has long sold it to its customer IQI at €6 per liter. IQI orders in multiples of 1,000 liters, and QV's production cost is €3 per liter. A new market has appeared: artisans throughout Spain, who buy very small quantities of the product through local shops. QV would sell them one-liter bottles at a 30% premium over the IQI price (€7.80 per liter). Packing and shipping for the artisans cost €0.50 per liter more, so the total cost of a liter sold to the artisans is €3.50.
+
+QV decides each morning how much to produce. Both demands are uncertain, and unmet demand on one day is lost (it does not carry over to the next). If the production is more than what IQI orders, the remaining liters go to the artisans. IQI is always served first. Unsold liters are wasted, but they have been paid for (€3 per liter produced).
+
+## Problem
+
+How much should QV produce per day? Analyze how the daily profit depends on the production level: its average, its spread, its range and how likely a loss is.
+
+## Forecast
+
+**Profit**: daily profit of QV, in euros.
+
+## Inputs and base values
+
+| Input | Base value | Type |
+|---|---:|---|
+| IQI demand (liters per day) | 3,000 | Can be uncertain (Assumption) |
+| Artisans demand (liters per day) | 500 | Can be uncertain (Assumption) |
+| Production (liters per day) | 3,000 | **Decision variable** |
+| Price to IQI (€ per liter) | 6 | Fixed |
+| Price to artisans (€ per liter) | 7.80 | Fixed |
+| Cost per liter produced (€) | 3 | Fixed |
+| Extra packing and shipping cost per liter sold to artisans (€) | 0.50 | Fixed |
+
+Names: "IQI demand" may also be called "demand of IQI", and "Artisans demand" "demand of the artisans" or "new market". "Production" may also be called "quantity produced" or "q".
+
+## Model
+
+All amounts are per day. The demands are drawn once per trial.
+
+- Sales to IQI = FLOOR(MIN(Production, IQI demand), 1000)  &nbsp;&nbsp; *(IQI only takes multiples of 1,000 liters)*
+- Sales to Artisans = MIN(Production - Sales to IQI, Artisans demand)
+- Income = 6 x Sales to IQI + 7.80 x Sales to Artisans
+- Costs = 3 x Production + 0.50 x Sales to Artisans
+- **Profit = Income - Costs**
+
+Check: with the base values (Production 3,000, IQI demand 3,000, Artisans demand 500), Sales to IQI = 3,000, Sales to Artisans = 0, Income = 18,000, Costs = 9,000 and Profit = 9,000. With Production = 3,500 (and the same demands), Sales to IQI = 3,000, Sales to Artisans = 500, Income = 21,900, Costs = 10,750 and Profit = 11,150.
+
+## Decision variable: what to run first
+
+The first thing to do is to run the simulation for Production = 3,000, 3,500, 4,000, 4,500 and 5,000 and compare the results. Later the user may ask for other values (for example, a finer grid around the best one). In the "Ready" message, say it like this: "Decision variable: Production. I will first run the simulation for Production = 3,000, 3,500, 4,000, 4,500 and 5,000. If you'd like me to run it for other amounts later, let me know."
