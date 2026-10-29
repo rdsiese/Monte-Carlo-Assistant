@@ -25,14 +25,6 @@ NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed 
 
 Use a new chat for each case.
 
-## What the assistant can do
-
-- Define Assumptions with standard distributions (Normal, Triangular, Uniform, Lognormal, Exponential, Binomial, Poisson, Discrete Uniform, Yes-No), continuous custom and discrete distributions.
-- Run 10,000 scenarios by default and show the Forecast chart and the Crystal Ball statistics table.
-- Answer probability questions with range charts.
-- Draw tornado charts, and re-run with only the most relevant Assumptions.
-- Use an Excel model as the source of the formulas.
-
 ## Notes
 
 - Results vary slightly from run to run because the simulation uses random numbers.
