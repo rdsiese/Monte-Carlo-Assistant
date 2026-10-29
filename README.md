@@ -14,7 +14,7 @@ For each case you need:
 
 Genzyme and Netscape also need their Excel file (`Genzyme Template.xlsx`, `Netscape.xlsx`) to be attached to the chat. 
 
-NOTE: The files `[name]_brief.md` contain the streamlined facts from each case that are needed to run the simulation, so you don’t need to attach the whole case. This allows you to follow IESE guidelines regarding case copyright (and it’s faster). 
+NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed to run the simulation, so you don’t need to attach the whole case. This works faster and it allows you to follow IESE guidelines regarding case copyright. 
 
 
 ## Quick start
