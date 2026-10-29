@@ -4,7 +4,7 @@ Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE 
 
 ## How it works
 
-For each case you need: 
+For each case you need the following two files, that you may find on Blackboard: 
 
 | File | What to do | What it is |
 |---|---|---|
@@ -21,7 +21,7 @@ NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed 
 
 1. Open a new chat in an AI assistant that accepts file attachments and can run code.
 2. Attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel template, attach it as well.
-3. In this repository, you will find the prompts files, `[name]_prompts.md`. Open the corresponding prompts file, and copy-paste the first message (`Follow the instructions in the attached file...`). 
+3. This repository contains the prompts files. Open `[name]_prompts.md` and copy-paste the first message (`Follow the instructions in the attached file...`). 
 4. Paste the remaining prompts one at a time.
 
 Use a new chat for each case.
