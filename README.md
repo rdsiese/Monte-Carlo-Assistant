@@ -1,6 +1,6 @@
 # MC Assistant
 
-Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE Business School) to help you analyze the following cases: Kahrvinger B, Chemical Fusion C, SkyWest Airlines, Genzyme-Geltex and Netscape. 
+Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE Business School) to help you analyze the following cases: **Kahrvinger B, Chemical Fusion C, SkyWest Airlines, Genzyme-Geltex** and **Netscape**. 
 
 ## How it works
 
@@ -12,7 +12,7 @@ For each case you need:
 | `[name]_brief.md` | Attach to the chat (one for each case) | Description of the case and the model. |
 | | | |
 
-Genzyme and Netscape also need their Excel file (`Genzyme Template.xlsx`, `Netscape.xlsx`) to be attached to the chat. 
+Genzyme and Netscape also need their Excel file (`Genzyme model.xlsx`, `Netscape.xlsx`) to be attached to the chat. 
 
 NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed to run the simulation, so you don’t need to attach the whole case. This works faster and it allows you to follow IESE guidelines regarding case copyright. 
 
@@ -21,29 +21,18 @@ NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed 
 
 1. Open a new chat in an AI assistant that accepts file attachments and can run code (Claude, ChatGPT, Gemini).
 2. Attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel template, attach it as well.
-3. From the corresponding prompts file (`[name]_prompts.md`), copy and paste the starting message from **Before you start**.
-4. Paste the remaining prompts one at a time, in order.
+3. From the corresponding prompts file (`[name]_prompts.md`), copy and paste the first message `Follow the instructions in the attached file...` 
+4. Paste the remaining prompts one at a time.
 
 Use a new chat for each case.
-
-## Cases
-
-| # | Case | Forecast | Folder |
-|---|---|---|---|
-| 1 | Kahrvinger B | NPV | `1_KahrvingerB/` |
-| 2 | Chemical Fusion C | Profit (decision variable: production) | `2_Chemical_FusionC/` |
-| 3 | SkyWest Airlines | Profit (decision variable: tickets sold) | `3_SkyWest_Airlines/` |
-| 4 | Genzyme-GelTex | Genzyme NPV | `4_Genzyme/` |
-| 5 | Netscape | Total NPV, Price/share | `5_Netscape/` |
 
 ## What the assistant can do
 
 - Define Assumptions with standard distributions (Normal, Triangular, Uniform, Lognormal, Exponential, Binomial, Poisson, Discrete Uniform, Yes-No), continuous custom and discrete distributions.
-- Run 10,000 scenarios by default (up to 1,000,000) and show the Forecast chart and the Crystal Ball statistics table.
+- Run 10,000 scenarios by default and show the Forecast chart and the Crystal Ball statistics table.
 - Answer probability questions with range charts.
-- Compare values of a decision variable using the same random draws.
 - Draw tornado charts, and re-run with only the most relevant Assumptions.
-- Use an Excel model as the source of the formulas, without editing it.
+- Use an Excel model as the source of the formulas.
 
 ## Notes
 
