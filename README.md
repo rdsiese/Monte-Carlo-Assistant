@@ -1,8 +1,6 @@
 # MC Assistant
 
-Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE Business School) for MBA courses. 
-
-The assistant will help you analyze the following cases: Kahrvinger B, Chemical Fusion C, SkyWest Airlines, Genzyme-Geltex and Netscape. 
+Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE Business School) to help you analyze the following cases: Kahrvinger B, Chemical Fusion C, SkyWest Airlines, Genzyme-Geltex and Netscape. 
 
 You define the uncertainties, it runs the simulation and shows the charts and statistics of the results.
 
