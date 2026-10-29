@@ -19,10 +19,9 @@ NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed 
 
 ## Quick start
 
-1. Open a new chat in an AI assistant that accepts file attachments and can run code.
-2. Attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel template, attach it as well.
-3. This repository contains the prompts files. Open `[name]_prompts.md` and copy-paste the first message (`Follow the instructions in the attached file...`). 
-4. Paste the remaining prompts one at a time.
+1. Open a new chat in Claude or ChatGPT and attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel template, attach it as well.
+2. This repository contains the prompts files. Open `[name]_prompts.md` and copy-paste the first message (`Follow the instructions in the attached file...`). 
+3. Paste the remaining prompts one at a time.
 
 Use a new chat for each case.
 
