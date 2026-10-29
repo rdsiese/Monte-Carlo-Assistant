@@ -20,7 +20,7 @@ NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed 
 ## Quick start
 
 1. Open a new chat in an AI assistant that accepts file attachments and can run code (Claude, ChatGPT, Gemini).
-2. Attach `MC_Assistant.md`, the corresponding case brief `[name]_brief.md` and, if the case has one, the Excel file.
+2. Attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel template, attach it as well.
 3. From the corresponding prompts file (`[name]_prompts.md`), copy and paste the starting message from **Before you start**.
 4. Paste the remaining prompts one at a time, in order.
 
