@@ -12,7 +12,7 @@ For each case you need the following two files, which you can find on Blackboard
 
 **Genzyme** and **Netscape** also need an Excel template (`Genzyme model.xlsx`, `Netscape.xlsx`) to be attached to the chat. 
 
-NOTE: The files `[name]_brief.md` contain the streamlined facts that are needed to run the simulation, so you don’t need to attach the whole case. This works faster and it allows you to follow IESE guidelines regarding case copyright. 
+The files `[name]_brief.md` contain the streamlined facts that are needed to run the simulation, so you don’t need to attach the whole case. This works faster and it allows you to follow IESE guidelines regarding case copyright. 
 
 
 ## Quick start
