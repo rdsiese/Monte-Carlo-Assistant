@@ -27,3 +27,6 @@ Use a new chat for each case.
 - Results vary slightly from run to run because the simulation uses random numbers.
 - In ChatGPT, the graphs may appear as small icons that you click to open.
 - In class we use Crystal Ball, a trademark of Oracle. This project is not affiliated with Oracle.
+
+## License 
+The prompts in this repository are shared under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license. You may use and adapt them for non-commercial purposes, with the appropriate credit, and share your versions under the same terms. The case materials are not included and remain the property of their copyright holders.
