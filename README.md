@@ -18,7 +18,7 @@ The files `[name]_brief.md` contain the streamlined facts that are needed to run
 ## Quick start
 
 1. Open a new chat in your LLM and attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel template, attach it as well.
-2. This repository contains the prompts files. For each case, open the corresponding file `[name]_prompts.md` and copy-paste the first message (`Follow the instructions in the attached file...`). 
+2. This GitHub repository contains the prompts files. For each case, open the corresponding file `[name]_prompts.md` and copy-paste the first message (`Follow the instructions in the attached file...`). 
 3. Paste the remaining prompts one at a time.
 
 Use a new chat for each case.
