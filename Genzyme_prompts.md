@@ -1,4 +1,4 @@
-# Genzyme / GelTex prompts
+# Genzyme-GelTex prompts
 
 To get started, attach the files `MC_Assistant.md`, `Genzyme_brief.md` and `Genzyme Template.xlsx` to the chat. 
 
