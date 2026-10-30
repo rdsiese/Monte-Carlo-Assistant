@@ -14,7 +14,7 @@ These are the hypotheses for the eight uncertainties (Assumptions). You can send
 
 ```
 FDA approval is Yes-No with probability of Yes 65%.
-Launch delay is Discrete: 0 with probability 70%, 1 with probability 20%, 2 with probability 10%.
+Launch delay is Discrete: 0 with probability 70%, 1 with probability 20%, 2 with probability 10%. 
 Life of drug is Triangular(10, 13, 20).
 Peak market share is Triangular(20%, 50%, 59%).
 Compliance is Triangular(75%, 92%, 94%).
