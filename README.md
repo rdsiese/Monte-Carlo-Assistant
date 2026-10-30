@@ -18,7 +18,7 @@ The files `[name]_brief.md` contain the streamlined facts that are needed to run
 ## Quick start
 
 1. Open a new chat in Claude (recommended) or ChatGPT and attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel file, attach it as well.
-2. This GitHub repository contains the prompts files. For each case, open the corresponding file `[name]_prompts.md` and copy-paste the starting prompt (the first gray box), which start like this: `Follow the instructions in the attached file...`. 
+2. This GitHub repository contains the prompts files. For each case, open the corresponding file `[name]_prompts.md` and copy-paste the starting prompt (the first gray box), which starts like this: `Follow the instructions in the attached file...`. 
 3. Paste the remaining prompts one at a time.
 
 Use a new chat for each case.
