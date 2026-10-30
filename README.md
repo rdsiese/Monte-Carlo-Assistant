@@ -2,7 +2,7 @@
 
 Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE Business School) to help you analyze the following cases: **Kahrvinger B, Chemical Fusion C, SkyWest Airlines, Genzyme-Geltex** and **Netscape**. 
 
-For each case you need the following two files, which you can find on Blackboard: 
+For each case you need the following two files (three for Genzyme and Netscape), which you can find on Blackboard: 
 
 | File | What to do | What it is |
 |---|---|---|
@@ -10,15 +10,15 @@ For each case you need the following two files, which you can find on Blackboard
 | `[name]_brief.md` | Attach to the chat (one for each case) | Description of the case and the model. |
 | | | |
 
-**Genzyme** and **Netscape** also need an Excel template (`Genzyme model.xlsx`, `Netscape.xlsx`) to be attached to the chat. 
+**Genzyme** and **Netscape** also need an Excel file (`Genzyme model.xlsx`, `Netscape.xlsx`) to be attached to the chat. 
 
-The files `[name]_brief.md` contain the streamlined facts that are needed to run the simulation, so you don’t need to attach the whole case. This works faster and it allows you to follow IESE guidelines regarding case copyright. 
+The files `[name]_brief.md` contain the streamlined facts that are needed to run the simulation, so you don’t need to upload the case text itself. 
 
 
 ## Quick start
 
-1. Open a new chat in your LLM and attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel template, attach it as well.
-2. This GitHub repository contains the prompts files. For each case, open the corresponding file `[name]_prompts.md` and copy-paste the first message (`Follow the instructions in the attached file...`). 
+1. Open a new chat in Claude (recommended) or ChatGPT and attach `MC_Assistant.md` and the corresponding `[name]_brief.md`. If the case has an Excel file, attach it as well.
+2. This GitHub repository contains the prompts files. For each case, open the corresponding file `[name]_prompts.md` and copy-paste the starting prompt (the first gray box), which start like this: `Follow the instructions in the attached file...`. 
 3. Paste the remaining prompts one at a time.
 
 Use a new chat for each case.
@@ -26,5 +26,6 @@ Use a new chat for each case.
 ## Notes
 
 - Results vary slightly from run to run because the simulation uses random numbers.
+- In ChatGPT, the graphs may appear as small icons that you click to open.
 - In class we use Crystal Ball, a trademark of Oracle. This project is not affiliated with Oracle.
 
