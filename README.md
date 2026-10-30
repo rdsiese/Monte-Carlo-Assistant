@@ -2,7 +2,7 @@
 
 Monte Carlo simulation with an AI assistant. Developed by Rafael Santiago (IESE Business School) to help you analyze the following cases: **Kahrvinger B, Chemical Fusion C, SkyWest Airlines, Genzyme-Geltex** and **Netscape**. 
 
-For each case you need the following two files, which you may find on Blackboard: 
+For each case you need the following two files, which you can find on Blackboard: 
 
 | File | What to do | What it is |
 |---|---|---|
