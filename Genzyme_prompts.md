@@ -5,7 +5,7 @@ To get started, attach the files `MC_Assistant.md`, `Genzyme_brief.md` and `Genz
 Then, copy each prompt (**the text inside the gray boxes**) and paste it to the assistant.
 
 ```
-Follow the instructions in the attached file MC_Assistant.md for this whole conversation. The other attached files describe the case: Genzyme_brief.md is the case brief and Genzyme Template.xlsx is the Excel model.
+Follow the instructions in the attached file MC_Assistant.md for this whole conversation. The other attached files describe the case: Genzyme_brief.md is the case brief and Genzyme model.xlsx is the Excel file.
 ```
 
 ## Uncertainties (Assumptions)
