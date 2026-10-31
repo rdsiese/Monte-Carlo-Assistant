@@ -26,6 +26,8 @@ Use a new chat for each case.
 
 - Results vary slightly from run to run because the simulation uses random numbers.
 - In ChatGPT, the graphs may appear as small icons that you click to open.
+-	If the assistant says it cannot run code, turn on code execution in Claude, or use ChatGPT with data analysis enabled.
+-	If the assistant seems to forget the instructions, start a new chat and attach the files again. 
 - In class we use Crystal Ball, a trademark of Oracle. This project is not affiliated with Oracle.
 
 ## License 
