@@ -16,7 +16,7 @@ The files `[name]_brief.md` contain the streamlined facts that are needed to run
 
 ## Quick start
 
-1. Open a new chat in Claude (recommended) or ChatGPT and attach `MC_Assistant.md` and the corresponding `[name]_brief.md` from Blackboard. If the case has an Excel file, attach it as well.
+1. Open a new chat in Claude, ChatGPT or Gemini and attach `MC_Assistant.md` and the corresponding `[name]_brief.md` from Blackboard. If the case has an Excel file, attach it as well.
 2. In this repository, click on the case's prompts file `[name]_prompts.md`, copy the first gray box (`Follow the instructions...`) and paste it in the chat. Each gray box has a copy icon in the top right corner.
 3. Paste the remaining prompts one at a time.
 
