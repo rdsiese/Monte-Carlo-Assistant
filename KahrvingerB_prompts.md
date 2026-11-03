@@ -18,6 +18,7 @@ Sales is Uniform(2300, 2700). Electronic components is Uniform(450, 550).
 ```
 Run the simulation.
 ```
+NOTE: The Forecast chart will be displayed in 3 ways: (a) as an animated sequence, showing how the scenarios are drawn; (b) as a snapshot of such sequence, showing the distribution of the NPV when 100, 500, 1,000, 2,500, 5,000 and 10,000 scenarios have been drawn (if you choose a different number of scenarios, the sequence will adapt); (c) as the final histogram of the NPV. The first two will help you to understand how simulation works. The third one is the one you will normally use to make your analyses. In subsequent cases, only the final histogram of the corresponging variable will be shown.  
 
 ## Part (c): custom distributions from quantiles
 
